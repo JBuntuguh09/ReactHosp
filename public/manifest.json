@@ -1,6 +1,6 @@
 {
   "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "set PORT=3006 Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",

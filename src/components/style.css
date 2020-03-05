@@ -1,0 +1,80 @@
+.base-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     
+    }
+    .header {
+        margin-top: 20%;
+        font-size: 24px;
+        font-family: "Open Sans", sans-serif;
+        justify-content: center;
+        align-self: center;
+      }
+    
+      .content {
+        display: flex;
+        flex-direction: column;
+        border-style: solid;
+        border-radius: 1cm;
+        border-color: aqua;
+      }
+    
+      .image {
+        width: 21em;
+      }
+        .img {
+          width: 50%;
+          height: 50%;
+        }
+    .form {
+      
+      margin-top: 2em;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+     .form-group {
+        border-color: 'green';
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: fit-content;
+  
+      }
+      label {
+        font-size: 20px;
+      }
+  
+        input {
+          margin-top: 6px;
+          min-width: 18cm;
+          height: 37px;
+          padding: 0px 10px;
+          font-size: 16px;
+          font-family: "Open Sans", sans-serif;
+          background-color: #f3f3f3;
+          border: 0;
+          border-radius: 4px;
+          margin-bottom: 31px;
+          transition: all 250ms ease-in-out;
+         
+        }
+      
+    
+  
+    
+    
+        .footer {
+            margin-top: 3em;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-self: center;
+          }
+  
+  .btn {
+      background-color: green;
+      color: greenyellow;
+    }
